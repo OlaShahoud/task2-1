@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #f44336;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    border-bottom: 3px solid rgb(130, 130, 130);
+}
+
+.links .list-item {
+    padding: 20px 40px;
+    color: white;
+}
+
+#active {
+    background-color: white;
+    color: #f44336 !important;
+}
+
+.start-page {
+    height: 300px;
+    background-color: #f44336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-page div button {
+    background: black;
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+}
+
+.start-page div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start-page div h1 {
+    padding-bottom: 1rem;
+}
+
+.second-item {
+    width: 25%;
+    margin: 4rem;
+}
+
+.our-service {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.our-service .first-div {
+    padding: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-service .first-div .first-item p {
+    padding: 20px 0px;
+}
+
+.our-service .first-div .first-item h2 {
+    padding: 20px 0px;
+}
+
+.gray-background {
+    background-color: rgb(227, 227, 227);
+}
+
+.quote {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(53, 48, 48);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(227, 227, 227);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 150px;
+}
+
+footer ul li img {
+    width: 20px;
+    height: 20px;
+}
